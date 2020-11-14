@@ -1,0 +1,67 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="103" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../nRF5_SDK_for_Thread_and_Zigbee_2.0.0_29775ac/components/libraries/uart/app_uart_fifo.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="268" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="sensor/actor/fg_actor.h" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="4" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="sensor" radix="16" sizeText="26" addressText="0x20000da4"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="sensor" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="sensor" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="sensor" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="air quality alarm system"/>
+  <ProjectSessionItem path="air quality alarm system;sensor"/>
+  <ProjectSessionItem path="air quality alarm system;sensor;actor"/>
+  <ProjectSessionItem path="air quality alarm system;sensor;Application"/>
+  <ProjectSessionItem path="air quality alarm system;sensor;lp8"/>
+  <ProjectSessionItem path="air quality alarm system;sensor;nRF_Libraries"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="P0/OUT;P0/OUTSET;P0/OUTCLR;P0/IN;P0/DIR;P0/DIRSET;P0/DIRCLR;P0/LATCH;P0/DETECTMODE;P1/OUT;P1/OUTSET;P1/OUTCLR;P1/IN;P1/DIR;P1/DIRSET;P1/DIRCLR;P1/LATCH;P1/DETECTMODE;CLOCK/TASKS_HFCLKSTART;CLOCK/TASKS_HFCLKSTOP;CLOCK/TASKS_LFCLKSTART;CLOCK/TASKS_LFCLKSTOP;CLOCK/TASKS_CAL;CLOCK/TASKS_CTSTART;CLOCK/TASKS_CTSTOP;CLOCK/EVENTS_HFCLKSTARTED;CLOCK/EVENTS_LFCLKSTARTED;CLOCK/EVENTS_DONE;CLOCK/EVENTS_CTTO;CLOCK/EVENTS_CTSTARTED;CLOCK/EVENTS_CTSTOPPED;CLOCK/INTENSET;CLOCK/INTENCLR;CLOCK/HFCLKRUN;CLOCK/HFCLKSTAT;CLOCK/LFCLKRUN;CLOCK/LFCLKSTAT;CLOCK/LFCLKSRCCOPY;CLOCK/LFCLKSRC;CLOCK/HFXODEBOUNCE;CLOCK/CTIV;CLOCK/TRACECONFIG;CLOCK/LFRCMODE" binaryNodes="" asciiNodes="" openNodes="P0;P1;CLOCK" name="sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="9" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="sensor/main.c" selected="1" top="2" codecName=""/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="sensor" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="../sdk/components/libraries/delay/nrf_delay.h&#xa;/home/fgrandel/Development/fg-co2-alarm/ses/nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/components/libraries/delay/nrf_delay.h&#xa;../sdk/components/libraries/log/nrf_log_backend_interface.h&#xa;/home/fgrandel/Development/fg-co2-alarm/ses/nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/components/libraries/log/nrf_log_backend_interface.h&#xa;../sdk/components/libraries/mutex/nrf_mtx.h&#xa;/home/fgrandel/Development/fg-co2-alarm/ses/nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/components/libraries/mutex/nrf_mtx.h&#xa;../sdk/components/toolchain/cmsis/include/cmsis_gcc.h&#xa;&#xa;../sdk/modules/nrfx/hal/nrf_gpio.h&#xa;/home/fgrandel/Development/fg-co2-alarm/ses/nrfx/hal/nrf_gpio.h" fileDialogInitialDirectory="/home/fgrandel/Development/fg-co2-alarm/ses/nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/components/libraries/delay" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>
